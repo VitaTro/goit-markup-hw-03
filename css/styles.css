@@ -7,8 +7,6 @@
     --moderate-blue-color:var(--MODERATE-BLUE, #404BBF); 
 --cornflower-color:var(--CORNFLOWER, #E7E9FC); 
 } 
-
-
 .title {
     color: var(--navy-blue-color);
     font-weight: 500;
@@ -39,6 +37,7 @@
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .web-studio {
     color: var(--iris-color);
@@ -48,7 +47,6 @@ font-weight: 800;
 text-transform: uppercase;
 letter-spacing: 0.03em;
 line-height: 1.17;
-margin-right: 76px;
 }
 
 .studio {
@@ -91,6 +89,7 @@ text-align: center;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    max-width: 496px;
 }
 .portfolio-button {
     background: var(--cloud-color);
@@ -110,6 +109,10 @@ text-align: center;
     background: var(--cloud-color);
     color:var(--iris-color);
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
 }
 .button-type:hover {
     color: var(--white-color);
@@ -127,13 +130,18 @@ text-align: center;
     letter-spacing: 0.04em;
     color: var(--iris-color);
     background-color:var(--cloud-color);
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 .portfolio-button-all:hover {
     background-color:var(--moderate-blue-color);
+    border: 1px solid transparent;
 }
 .portfolio-button-all:focus {
     background-color:var(--moderate-blue-color);
     cursor: pointer;
+    border: 1px solid transparent;
 }
 .portfolio-button:hover {
     background: var(--iris-color);
@@ -180,7 +188,7 @@ color: var(--white-color);
 .container-address-mail {
     display: flex;
     gap: 40px;
-    margin-left: 40px;
+    margin-right: 40px;
 }
 .container-address-phone {
     margin-right: 0;
@@ -208,6 +216,7 @@ letter-spacing: 0.02em;
 
 .your-team {
     background-color:var(--white-color);
+    
 }
 .portfolio-list {
     list-style: none;
@@ -238,26 +247,14 @@ letter-spacing: 0.02em;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    display: flex;
 }
 .container-nav {
     display: flex;
     align-items: center;
 }
-.page-header,
-.section {
-padding-top: 20px;
-padding-bottom: 20px;
-} 
-h1, 
-h2, 
-p {
-    margin:0;
-}
-.strategy-display {
-    display: none;
-}
 .page-header {
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC); 
+    border-bottom: 1px solid #e7e9fc; 
     display: flex;
 align-items: center;
 justify-content: space-between;
@@ -269,9 +266,80 @@ justify-content: space-between;
     padding-bottom: 120px ;
     text-align: center;
 }
-ul,
-p,
-h1,
-h2 {
+.logo {
+    margin-right: 76px;
+}
+.section-first {
+    padding: 188px 0;  
+}
+.headline-main-button {
     display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px; 
+}
+.visually-hidden {
+    display: none;
+}
+.strategy-section-list{
+    display: flex; 
+    gap: 24px; 
+    margin-right: 24px;
+}
+.strategy-section-punkt {
+    width: calc((100% - 72px) / 4); 
+}
+.strategy-header-title {
+    margin-bottom: 8px;
+}
+.section-third {
+    display: flex;
+}
+.section-third-list {
+    gap: 24px; 
+    width: calc((100% - 48px) / 3);
+}
+.section-four {
+    display: flex;
+    gap: 24px;
+}
+.section-four-list {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.section-four-container {
+    padding: 32px 0px;
+}
+.section-four-team {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.section-four-p {
+    text-align: center;
+}
+.page-footer {
+    padding: 100px 0;
+}
+.page-footer-link {
+    display: inline-block;
+    margin-bottom: 16px
+}
+.portfolio-section {
+    padding: 96px 0 120px 0;
+}
+.portfolio-image {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none; 
+    margin-bottom: 8px;
+}
+.portfolio-list-image {
+    display: flex; 
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px; 
+}
+.portfolio-image-list {
+    width: calc((100% - 48px) / 3); 
 }

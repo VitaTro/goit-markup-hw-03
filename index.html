@@ -21,12 +21,9 @@
        background-color:var(--white-color);
        margin: 0;
        line-height: 1.5;}
-       *,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-    
+       img {
+        display: block;
+       }
 </style>
 </head>
 
@@ -34,7 +31,7 @@
     <header class="page-header">
         <div class="container container-header">
         <nav class="link list container-nav">
-            <a href="./index.html" class="web-studio link">Web<span class="studio">Studio</span></a>
+            <a href="./index.html" class="web-studio link logo">Web<span class="studio">Studio</span></a>
             <ul class="list container-menu">
                 <li><a class="header-nav link container-menu-link" href="./index.html">Studio</a></li>
                 <li><a class="header-nav link container-menu-link"  href="./portfolio.html">Portfolio</a> </li>
@@ -50,33 +47,33 @@
 </div>
     </header>
         <main> 
-            <section class="item section">
+            <section class="item section section-first">
                 <div class="container">
                 <h1 class="headline-main">Effective Solutions for Your Business</h1>
-                <button type="button" class="button">Order Service</button>
+                <button type="button" class="button headline-main-button">Order Service</button>
                 </div>
             </section>
             <section class="section">
-                <h2 class="strategy-display">Strategy etc</h2>
                 <div class="container">
-                <ul class="list">
-                    <li class="list link">
-                        <h3 class="strategy-header title">Strategy</h3>
+                <h2 class="visually-hidden">Strategy etc</h2>
+                <ul class="list strategy-section-list">
+                    <li class="list link strategy-section-punkt">
+                        <h3 class="strategy-header title strategy-header-title">Strategy</h3>
                        <p class="strategy-text text">Our goal is to identify the business problem to walk away with the
                         perfect and creative solution.</p>
                     </li>
-                    <li class="list link">
-                        <h3 class="strategy-header title">Punctuality</h3>
+                    <li class="list link strategy-section-punkt">
+                        <h3 class="strategy-header title strategy-header-title">Punctuality</h3>
                       <p class="strategy-text text"> Bring the key message to the brand's audience for the best price
                         within the shortest possible time.</p> 
                     </li>
-                    <li class="list link ">
-                        <h3 class="strategy-header title">Diligence</h3>
+                    <li class="list link strategy-section-punkt">
+                        <h3 class="strategy-header title strategy-header-title">Diligence</h3>
                       <p class="strategy-text text">Research and confirm brands that present the strongest digital
                         growth opportunities and minimize risk.</p>
                     </li>
-                    <li class="list link">
-                        <h3 class="strategy-header title">Technologies</h3>
+                    <li class="list link strategy-section-punkt">
+                        <h3 class="strategy-header title strategy-header-title">Technologies</h3>
                       <p class="strategy-text text">Design practice focused on digital experiences. We bring forth a
                         deep passion for problem-solving.</p>
                     </li>
@@ -85,9 +82,9 @@
             </section>
             <section class="list section">
                 <div class="container">
-                <h2 class="head-title">What are we doing</h2>
-                <ul class="list">
-                    <li class="list">
+                <h2 class="head-title ">What are we doing</h2>
+                <ul class="list section-third">
+                    <li class="list section-third-list">
                         <img src="./images/img1.jpg" width="360" height="300" alt="monitor screen" />
                     </li>
                     <li class="list">
@@ -102,46 +99,45 @@
             <section class="head-team list section">
                 <div class="container">
                 <h2 class="head-title">Our Team</h2>
-                <ul class="list link">
-                    <li class="your-team">
-                       
+                <ul class="list link section-four">
+                    <li class="your-team section-four-list">
+                        <div class="section-four-container">
                         <img src="./images/markg.jpg" width="264" height="260"
                         alt="Middle-aged man with beard in blue shirt" />
-                    <h3 class="strategy-header title">Mark Guerrero</h3>
-                    <p class="strategy-text text">Product Designer</p>
-               
+                    <h3 class="strategy-header title section-four-team">Mark Guerrero</h3>
+                    <p class="strategy-text text section-four-p">Product Designer</p>
+                        </div>
                 </li>
                 <li class="your-team">
-
+                    <div class="section-four-container">
                     <img src="./images/tomf.jpg" width="264" height="260" alt="Young man smiling in blue shirt " />
-                    <h3 class=" strategy-header title">Tom Ford</h3>
-                    <p class="text strategy-text ">Frontend Developer</p>
-
+                    <h3 class=" strategy-header title section-four-team">Tom Ford</h3>
+                    <p class="text strategy-text section-four-p">Frontend Developer</p>
+                </div >
                 </li>
                 <li class="your-team">
-                    
+                    <div class="section-four-container">
                     <img src="./images/camilag.jpg" width="264" height="260"
                         alt="Young dark-haired beautiful girl in pink sweater" />
-                    <h3 class="strategy-header title">Camila Garcia</h3>
-                    <p class="strategy-text text">Marketing</p>
-               
+                    <h3 class="strategy-header title section-four-team">Camila Garcia</h3>
+                    <p class="strategy-text text section-four-p">Marketing</p>
+                </div>
                 </li>
                 <li class="your-team">
-                    
+                    <div class="section-four-container"> 
                     <img src="./images/danielw.jpg" width="264" height="260"
                         alt="Young black-haired guy in gray t-shirt" />
-                    <h3 class="strategy-header title">Daniel Wilson</h3>
-                    <p class="strategy-text text">UI Designer</p>
-                    
+                    <h3 class="strategy-header title section-four-team">Daniel Wilson</h3>
+                    <p class="strategy-text text section-four-p">UI Designer</p>
+                </div>
                 </li>
                 </ul>
             </div>
             </section>
-        </div>
         </main>
         <footer class="footer page-footer"> 
             <div class="container">
-            <a href="./index.html" class="web-studio link">Web<span class="footer-studio">Studio</span></a>
+            <a href="./index.html" class="web-studio link page-footer-link">Web<span class="footer-studio">Studio</span></a>
             <p class="text-footer">
                 Increase the flow of customers and 
                 sales for your business with digital marketing & growth solutions.

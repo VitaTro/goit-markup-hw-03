@@ -19,33 +19,37 @@
        font-family: "Roboto", sans-serif;
         color:var(--slate-color);
        background-color:var(--white-color); 
-       
     }
+    img {
+        display: block;
+       }
 </style>
 </head>
 
 <body>
-    <header >
-        <nav class="link list">
-            <a href="./index.html" class="web-studio link">Web<span class="studio">Studio</span></a>
-            <ul class="list">
-                <li><a class="header-nav link" href="./index.html">Studio</a></li>
-                <li><a class="header-nav link"  href="./portfolio.html">Portfolio</a> </li>
-                <li><a class="header-nav link" href="">Contacts</a> </li>
+    <header class="page-header">
+        <div class="container container-header">
+        <nav class="link list container-nav">
+            <a href="./index.html" class="web-studio link logo">Web<span class="studio">Studio</span></a>
+            <ul class="list container-menu">
+                <li><a class="header-nav link container-menu-link" href="./index.html">Studio</a></li>
+                <li><a class="header-nav link container-menu-link"  href="./portfolio.html">Portfolio</a> </li>
+                <li><a class="header-nav link container-menu-link" href="">Contacts</a> </li>
             </ul>
         </nav>
         <address class="address list">
-         <ul class="link list contact">
-       <li> <a class="contact list link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      <li>  <a class="contact list link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+         <ul class="link list contact container-address">
+       <li> <a class="contact list link  container-address-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      <li>  <a class="contact list link  container-address-phone" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
     </address>
+</div>
     </header>
     <main>
-        <Section>
+        <Section class="portfolio-section">
             <div >  
-            <h1>Image</h1>
-        <ul class="list link button-type">
+            <h1 class="visually-hidden">Image</h1>
+        <ul class="list link button-type ">
            <li class="list link"> 
             <button type="button"  class="portfolio-button-all button-type">All</button>
         </li>
@@ -62,74 +66,101 @@
                                 <button type="button"  class="portfolio-button-all button-type">Marketing</button>
                             </li>
         </ul>
-    </div>
-    <div>
-           <ul class="list">
-            <li class="list link">
+           <ul class="list portfolio-list-image">
+            <li class="list link portfolio-image-list">
                 <a class="list link" href="">
+                    <div class="portfolio-image">
 <img src="./images/img21.jpg" alt="BankApp in the phone with an active interface" width="360" height="300"/>
 <h2 class="app-phone-header" >Banking App Interface Concept</h2>
     <p  class="app-phone-text">App</p>
-</a></li>
-    <li class="list link">
+</div>
+</a>
+</li>
+    <li class="list link portfolio-image-list">
         <a class="list link" href="">
+        <div class="portfolio-image">
         <img src="./images/img22.jpg" alt="Payment of the bill at the terminal via QR code" width="360" height="300"/>
     <h2 class="app-phone-header" >Cashless Payment</h2>
         <p class="app-phone-text">Marketing</p>
-    </a></li>
-        <li class="list link"> 
-            <a class="list link" href="">
+   </div> 
+        </a>
+    </li>
+        <li class="list link portfolio-image-list"> 
+           <a class="list link" href=""> 
+            <div class="portfolio-image">
             <img src="./images/img23.jpg" alt="The same work app for your laptop and phone NORMALCY" width="360" height="300"/>
         <h2 class="app-phone-header" >Meditation App</h2>
             <p  class="app-phone-text">App</p>
-        </a> </li>
-            <li class="list link">
+        </div> 
+    </a>
+    </li>
+            <li class="list link portfolio-image-list">
                 <a class="list link" href="">
+                <div class="portfolio-image">
                 <img src="./images/img24.jpg"  alt="A taxi driver driving to his destination" width="360" height="300"/>
             <h2 class="app-phone-header" >Taxi Service</h2>
                 <p class="app-phone-text">Marketing</p>
-                </a></li>
-                <li class="list link">
-                    <a class="list link" href="">
+            </div> 
+        </a>
+            </li>
+                <li class="list link portfolio-image-list">
+                  <a class="list link" href="">  
+                    <div class="portfolio-image">
                 <img src="./images/img25.jpg" alt="Phone theme in the form of a fantasy moon" width="360" height="300"/>
                 <h2 class="app-phone-header" >Screen Illustrations</h2>
                     <p class="app-phone-text">Design</p>
-                </a></li>
-                   <li class="list link"> 
-                    <a class="list link" href="">
+                </div> 
+            </a>
+                </li>
+                   <li class="list link portfolio-image-list"> 
+                   <a class="list link" href="">
+                     <div class="portfolio-image">
                     <img src="./images/img26.jpg" alt="Girl in gray hat in 
                     sunglasses and orange sweater listening to music" width="360" height="300"/>
                     <h2 class="app-phone-header" >Online Courses</h2>
                         <p  class="app-phone-text">Marketing</p>
-                    </a></li>
-                       <li class="list link">
+                    </div> 
+                </a>
+                </li>
+                       <li class="list link portfolio-image-list"> 
                         <a class="list link" href="">
+                        <div class="portfolio-image">
                         <img src="./images/img27.jpg" alt="Smart Home Control in Phone App" width="360" height="300"/>
                         <h2 class="app-phone-header" >Instagram Stories Concept</h2>
                             <p class="app-phone-text">Design</p>
-                        </a></li>
-                        <li class="list link">
+                        </div> 
+                    </a>
+                    </li>
+                        <li class="list link portfolio-image-list"> 
                             <a class="list link" href="">
+                            <div class="portfolio-image">
                             <img src="./images/img28.jpg" alt="A girl in a striped light suit carries a wicker bag with vegetables" width="360" height="300"/>
                             <h2 class="app-phone-header" >Organic Food</h2>
                                 <p class="app-phone-text">Web Site</p>
-                                </a></li>
-                                <li class="list link">
+                            </div> 
+                        </a>
+                        </li>
+                                <li class="list link portfolio-image-list">
                                     <a class="list link" href="">
+                                    <div class="portfolio-image">
                                 <img src="./images/img29.jpg" alt="Barista makes a patterned cappuccino" width="360" height="300" />
                                 <h2 class="app-phone-header">Fresh Coffee</h2>
                                     <p class="app-phone-text">Web Site</p>
-                                    </a></li> 
+                                </div> 
+                            </a>
+                                </li> 
                                    </ul>
                                 </div>
         </Section>
     </main>
-    <footer class="footer">
-        <a href="./index.html" class="web-studio link">Web<span class="footer-studio">Studio</span></a>
+    <footer class="footer page-footer"> 
+        <div class="container">
+        <a href="./index.html" class="web-studio link page-footer-link">Web<span class="footer-studio">Studio</span></a>
         <p class="text-footer">
             Increase the flow of customers and 
             sales for your business with digital marketing & growth solutions.
         </p>
+        </div>
     </footer>
 </body>
 
