@@ -7,6 +7,9 @@
     --moderate-blue-color:var(--MODERATE-BLUE, #404BBF); 
 --cornflower-color:var(--CORNFLOWER, #E7E9FC); 
 } 
+img {
+    display: block;
+   }
 .title {
     color: var(--navy-blue-color);
     font-weight: 500;
