@@ -20,6 +20,7 @@ img {
 }
 .list {
     list-style: none;
+    
 }
 .text {
     font-weight: 400;
@@ -282,16 +283,15 @@ justify-content: space-between;
     border: none;
     border-radius: 4px; 
 }
-.visually-hidden {
-    display: none;
-}
 .strategy-section-list{
     display: flex; 
     gap: 24px; 
     margin-right: 24px;
 }
 .strategy-section-punkt {
-    width: calc((100% - 72px) / 4); 
+    width: calc((100% - 72px) / 4);
+    margin: 0;
+  padding-left: 0; 
 }
 .strategy-header-title {
     margin-bottom: 8px;
@@ -302,6 +302,9 @@ justify-content: space-between;
 .section-third-list {
     gap: 24px; 
     width: calc((100% - 48px) / 3);
+    margin: 0;
+  padding-left: 0;
+
 }
 .section-four {
     display: flex;
@@ -310,6 +313,8 @@ justify-content: space-between;
 .section-four-list {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    margin: 0;
+  padding-left: 0;
 }
 .section-four-container {
     padding: 32px 0px;
@@ -326,7 +331,7 @@ justify-content: space-between;
 }
 .page-footer-link {
     display: inline-block;
-    margin-bottom: 16px
+    margin-bottom: 16px;
 }
 .portfolio-section {
     padding: 96px 0 120px 0;
@@ -346,3 +351,15 @@ justify-content: space-between;
 .portfolio-image-list {
     width: calc((100% - 48px) / 3); 
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
