@@ -246,6 +246,7 @@ letter-spacing: 0.02em;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .app-phone-text {
     color:var(--slate-color);
