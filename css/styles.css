@@ -3,6 +3,9 @@
 *::after {
   box-sizing: border-box;
 }
+img {
+    display: block;
+}
 :root {
   --slate-color:var(--SLATE, #434455);
   --iris-color: var(--IRIS, #4D5AE5);
@@ -36,9 +39,7 @@
     line-height: 1.5rem;
     letter-spacing: 0.02rem;
 }
-.text-footer-p {
-    display: inline-block;
-}
+
 .head-title {
     color: var(--navy-blue-color);
     font-weight: 700;
