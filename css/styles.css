@@ -5,6 +5,8 @@
 }
 img {
     display: block;
+    max-width: 100%;
+  height: auto;
 }
 :root {
   --slate-color:var(--SLATE, #434455);
@@ -15,6 +17,13 @@ img {
     --moderate-blue-color:var(--MODERATE-BLUE, #404BBF); 
 --cornflower-color:var(--CORNFLOWER, #E7E9FC); 
 } 
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
 .title {
     color: var(--navy-blue-color);
     font-weight: 500;
@@ -27,7 +36,6 @@ img {
     list-style: none;
     margin: 0;
     padding-left: 0;
-    
 }
 .text {
     font-weight: 400;
@@ -37,7 +45,9 @@ img {
 .text-footer {
     color: var(--cloud-color);
     line-height: 1.5rem;
-    letter-spacing: 0.02rem;
+    width: 264px;
+    padding-left: 9.75em;
+    
 }
 
 .head-title {
@@ -59,6 +69,7 @@ font-weight: 800;
 text-transform: uppercase;
 letter-spacing: 0.03em;
 line-height: 1.17;
+
 }
 
 .studio {
@@ -75,6 +86,17 @@ line-height: 1.17;
 background-color: var(--navy-blue-color);
 height: 37.5rem;
 flex-shrink: 0;
+}
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
+  ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 .button {
 background-color: var(--iris-color);
@@ -332,9 +354,14 @@ justify-content: space-between;
 }
 .page-footer {
     padding: 100px 0;
+    display: block;
+
 }
 .page-footer-link {
     display: inline-block;
+height: 1.5rem;
+align-items: center;
+padding-left: 9.75em;
     margin-bottom: 16px;
 }
 .portfolio-section {
