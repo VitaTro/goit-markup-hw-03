@@ -126,16 +126,11 @@ padding: 188px 0;
       margin: 0 auto 48px;
   }
   .headline-main-button {
+    display: block;
     min-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
-    text-align: center;
-    display: block;
-    justify-content: center;
-    padding: 1rem 2rem;
-align-items: flex-start;
-gap: 0.625rem;
 }
   .button-type {
     font-family: "Roboto", sans-serif;
@@ -264,7 +259,7 @@ gap: 0.625rem;
     .container {
         margin: 0 auto;
         padding: 0 15px;
-        max-width: 1158px;
+        width: 1158px;
     }
     .visually-hidden {
         position: absolute;
@@ -335,9 +330,7 @@ padding-top: 1.5em;
         text-align: center;
         display: flex;
     margin: 0 auto;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    padding: 188px 0;
+    padding: 120px 0;
     }
 .section-first {
     display: block;
