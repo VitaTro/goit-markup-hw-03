@@ -260,7 +260,9 @@ padding: 188px 0;
       background-color: var(--cloud-color);
   }
     .container {
-    width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px;
+        max-width: 1158px;
     }
     .visually-hidden {
         position: absolute;
@@ -295,7 +297,10 @@ flex-shrink: 0;
     }
     .logo {
         margin-right: 76px;
-       
+    }
+    .logo-footer {
+        display: inline-block;
+        margin-bottom: 16px;
     }
     .container-menu {
         display: flex;
@@ -384,12 +389,8 @@ gap: 8px;
         padding: 32px 0px;
     }
     .page-footer {
-        padding-left: 9.75em;
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding: 100px 0;
     }
     .portfolio-section {
         padding: 96px 0 120px 0;
