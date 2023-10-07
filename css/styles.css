@@ -123,25 +123,21 @@ flex-shrink: 0;
       letter-spacing: 0.02em;
       max-width: 496px;
   }
-  .portfolio-button {
-      background: var(--cloud-color);
-      color:var(--iris-color);
-      font-family: "Roboto", sans-serif;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.04em; 
-  }
   .button-type {
-      font-family: "Roboto", sans-serif;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.04em; 
-      background: var(--cloud-color);
-      color:var(--iris-color);
-      cursor: pointer;
-  }
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em; 
+    background: var(--cloud-color);
+    color:var(--iris-color);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+}
   .button-type:hover {
       color: var(--white-color);
   }
@@ -158,6 +154,9 @@ flex-shrink: 0;
       letter-spacing: 0.04em;
       color: var(--iris-color);
       background-color:var(--cloud-color);
+      padding: 12px 24px;
+      border: 1px solid #e7e9fc;
+      border-radius: 4px;
   }
   .portfolio-button-all:hover {
       background-color:var(--moderate-blue-color);
@@ -244,8 +243,7 @@ flex-shrink: 0;
       background-color: var(--cloud-color);
   }
     .container {
-        width: 1158px; 
-
+    width: 1158px; 
     }
     .visually-hidden {
         position: absolute;
@@ -380,4 +378,21 @@ gap: 8px;
         flex-direction: column;
         justify-content: center;
     }
-    
+    .portfolio-section {
+        padding: 96px 0 120px 0;
+    }
+    .portfolio-list-image {
+        display: flex; 
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px; 
+    }
+    .portfolio-image-list {
+        width: calc((100% - 48px) / 3); 
+    }
+    .portfolio-image {
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none; 
+        margin-bottom: 8px;
+    }
