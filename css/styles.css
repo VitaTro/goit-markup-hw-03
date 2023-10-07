@@ -66,6 +66,7 @@ img {
       letter-spacing: 0.02em;
       text-transform: capitalize;
       padding-bottom: 4.5em;
+      margin-bottom: 72px;
 
       
   }
@@ -122,7 +123,16 @@ flex-shrink: 0;
       text-align: center;
       letter-spacing: 0.02em;
       max-width: 496px;
+      margin: 0 auto 48px;
   }
+  .headline-main-button {
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+}
   .button-type {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -209,6 +219,7 @@ flex-shrink: 0;
       font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
   }
   
   .strategy-text { 
@@ -244,6 +255,7 @@ flex-shrink: 0;
   }
     .container {
     width: 1158px; 
+  
     }
     .visually-hidden {
         position: absolute;
@@ -262,15 +274,13 @@ flex-shrink: 0;
         display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1440px;
-height: 72px;
+
 flex-shrink: 0;
     }
     .container-header {
         margin: 0 auto;
         padding: 0 15px;
         display: flex;
-        width: 1440px;
 height: 72px;
 flex-shrink: 0;
     }
@@ -280,6 +290,7 @@ flex-shrink: 0;
     }
     .logo {
         margin-right: 76px;
+       
     }
     .container-menu {
         display: flex;
@@ -320,10 +331,6 @@ padding-top: 1.5em;
 .section-first {
     display: block;
 }
-.main-h1 {
-    margin: 0 auto 48px;
-    text-align: center;
-}
 .strategy-section-list {
     display: flex; 
     gap: 24px; 
@@ -344,7 +351,6 @@ gap: 0.5rem;
     text-align: left;
 }
     .strategy-punkt-text {
-
 display: flex;
 width: 264px;
 flex-direction: column;
@@ -377,6 +383,8 @@ gap: 8px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
     .portfolio-section {
         padding: 96px 0 120px 0;
