@@ -347,8 +347,7 @@ padding-top: 1.5em;
 }
 .strategy-section-point {
     width: calc((100% - 72px) / 4); 
-    text-align: justify;
-gap: 0.5rem;
+    
 }
 .strategy-header-title {
     margin-bottom: 8px;
