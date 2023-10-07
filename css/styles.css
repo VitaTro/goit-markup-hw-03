@@ -285,6 +285,8 @@ flex-shrink: 0;
         display: flex;
 height: 72px;
 flex-shrink: 0;
+width: 1158px;
+margin: 0;
     }
     .container-nav {
         display: flex;
@@ -344,21 +346,13 @@ padding-top: 1.5em;
 .strategy-section-point {
     width: calc((100% - 72px) / 4); 
     text-align: justify;
-flex-direction: column;
-align-items: flex-start;
 gap: 0.5rem;
 }
 .strategy-header-title {
     margin-bottom: 8px;
     text-align: left;
 }
-    .strategy-punkt-text {
-display: flex;
-width: 264px;
-flex-direction: column;
-align-items: flex-start;
-gap: 8px;
-    }
+  
     .section-third {
         display: flex;
         gap: 24px;
