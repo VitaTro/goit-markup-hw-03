@@ -127,10 +127,11 @@ padding: 188px 0;
   }
   .headline-main-button {
     display: block;
-    min-width: 169px;
+    width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
+    
 }
   .button-type {
     font-family: "Roboto", sans-serif;
@@ -286,7 +287,7 @@ flex-shrink: 0;
 height: 72px;
 flex-shrink: 0;
 width: 1158px;
-margin: 0;
+margin: 0 auto;
     }
     .container-nav {
         display: flex;
@@ -329,14 +330,11 @@ padding-top: 1.5em;
         
     }
     .section {
-        text-align: center;
+       padding: 120px 0; 
         display: flex;
     margin: 0 auto;
-    padding: 120px 0;
+    text-align: center;
     }
-.section-first {
-    display: block;
-}
 .strategy-section-list {
     display: flex; 
     gap: 24px; 
