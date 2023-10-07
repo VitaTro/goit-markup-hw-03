@@ -97,6 +97,7 @@ flex-shrink: 0;
   background-color: var(--navy-blue-color);
   height: 37.5rem;
 flex-shrink: 0;
+padding: 188px 0;
   }
   .button {
   background-color: var(--iris-color);
@@ -131,6 +132,7 @@ flex-shrink: 0;
     border: none;
     border-radius: 4px;
     text-align: center;
+   
     justify-content: center;
 }
   .button-type {
@@ -147,12 +149,15 @@ flex-shrink: 0;
     gap: 24px;
     align-items: center;
     padding: 0.75rem 1.5rem;
+    margin-bottom: 72px;
 }
   .button-type:hover {
       color: var(--white-color);
+      border: 1px solid transparent;
   }
   .button-type:focus {
       color: var(--white-color);
+      border: 1px solid transparent;
   }
   
   
@@ -240,6 +245,7 @@ flex-shrink: 0;
       font-size: 20px;
       line-height: 1.2;
       letter-spacing: 0.02em;
+      margin-bottom: 8px;
   }
   .app-phone-text {
       color:var(--slate-color);
@@ -254,8 +260,7 @@ flex-shrink: 0;
       background-color: var(--cloud-color);
   }
     .container {
-    width: 1158px; 
-  
+    width: 1158px;
     }
     .visually-hidden {
         position: absolute;
@@ -337,7 +342,7 @@ padding-top: 1.5em;
     margin-right: 24px;
     padding-left: 9.75em;    
 }
-.strategy-section-punkt {
+.strategy-section-point {
     width: calc((100% - 72px) / 4); 
     text-align: justify;
 
