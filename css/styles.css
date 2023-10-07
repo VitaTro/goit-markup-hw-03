@@ -285,8 +285,7 @@ padding: 188px 0;
 flex-shrink: 0;
     }
     .container-header {
-        margin: 0 auto;
-        padding: 0 15px;
+        
         display: flex;
 height: 72px;
 flex-shrink: 0;
@@ -312,12 +311,11 @@ flex-shrink: 0;
     .container-address {
         display: flex;
         gap: 40px;
-        margin-right: 40px;
     }
     .container-address-mail {
         display: flex;
         gap: 40px;
-        margin-right: 40px;
+        
         padding-left: 20.75em;
         line-height: 24px;
 letter-spacing: 0.32px;
@@ -330,6 +328,7 @@ padding-top: 1.5em;
         line-height: 24px;
         letter-spacing: 0.32px;
         padding-top: 1.5em;
+        
     }
     .section {
         text-align: center;
@@ -337,6 +336,7 @@ padding-top: 1.5em;
     margin: 0 auto;
     padding-top: 120px;
     padding-bottom: 120px;
+    padding: 188px 0;
     }
 .section-first {
     display: block;
@@ -350,11 +350,9 @@ padding-top: 1.5em;
 .strategy-section-point {
     width: calc((100% - 72px) / 4); 
     text-align: justify;
-
 flex-direction: column;
 align-items: flex-start;
 gap: 0.5rem;
-
 }
 .strategy-header-title {
     margin-bottom: 8px;
