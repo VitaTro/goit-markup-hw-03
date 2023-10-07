@@ -88,7 +88,6 @@ img {
   }
   .footer {
       background: var(--navy-blue-color);
-      width: 90rem;
 height: 19.5rem;
 flex-shrink: 0;
   
@@ -132,8 +131,11 @@ padding: 188px 0;
     border: none;
     border-radius: 4px;
     text-align: center;
-   
+    display: block;
     justify-content: center;
+    padding: 1rem 2rem;
+align-items: flex-start;
+gap: 0.625rem;
 }
   .button-type {
     font-family: "Roboto", sans-serif;
@@ -285,7 +287,6 @@ padding: 188px 0;
 flex-shrink: 0;
     }
     .container-header {
-        
         display: flex;
 height: 72px;
 flex-shrink: 0;
@@ -389,6 +390,7 @@ gap: 8px;
     .page-footer {
         flex-direction: column;
         padding: 100px 0;
+
     }
     .portfolio-section {
         padding: 96px 0 120px 0;
