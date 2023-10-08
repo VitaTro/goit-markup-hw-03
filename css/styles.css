@@ -260,7 +260,7 @@ padding: 188px 0;
     .container {
         margin: 0 auto;
         padding: 0 15px;
-        width: 1158px;
+        max-width: 1158px;
     }
     .visually-hidden {
         position: absolute;
@@ -279,15 +279,14 @@ padding: 188px 0;
         display: flex;
     align-items: center;
     justify-content: space-between;
-
 flex-shrink: 0;
     }
     .container-header {
         display: flex;
 height: 72px;
 flex-shrink: 0;
-width: 1158px;
-margin: 0 auto;
+
+
     }
     .container-nav {
         display: flex;
