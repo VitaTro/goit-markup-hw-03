@@ -259,7 +259,7 @@ padding: 188px 0;
   }
     .container {
         margin: 0 auto;
-        padding: 0 15px;
+        padding: 0 15px;=
         max-width: 1158px;
     }
     .visually-hidden {
@@ -332,7 +332,7 @@ padding-top: 1.5em;
        padding: 120px 0; 
         display: flex;
     margin: 0 auto;
-    text-align: center;
+    
     }
     .section-first {
         padding: 188px 0;
