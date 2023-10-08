@@ -259,8 +259,8 @@ padding: 188px 0;
   }
     .container {
         margin: 0 auto;
-        padding: 0 15px;=
-        max-width: 1158px;
+        padding: 0 15px;
+       width: 1158px;
     }
     .visually-hidden {
         position: absolute;
@@ -285,8 +285,6 @@ flex-shrink: 0;
         display: flex;
 height: 72px;
 flex-shrink: 0;
-
-
     }
     .container-nav {
         display: flex;
@@ -341,8 +339,6 @@ padding-top: 1.5em;
 .strategy-section-list {
     display: flex; 
     gap: 24px; 
-    margin-right: 24px;
-    padding-left: 9.75em;    
 }
 .strategy-section-point {
     width: calc((100% - 72px) / 4); 
@@ -352,7 +348,6 @@ padding-top: 1.5em;
     margin-bottom: 8px;
     text-align: left;
 }
-  
     .section-third {
         display: flex;
         gap: 24px;
