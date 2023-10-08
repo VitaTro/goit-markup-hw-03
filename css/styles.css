@@ -392,3 +392,10 @@ padding-top: 1.5em;
         border-top: none; 
         margin-bottom: 8px;
     }
+    .section-four-header {
+        text-align: center;
+        margin-bottom: 8px; 
+    }
+    .section-four-text {
+        text-align: center;
+    }
