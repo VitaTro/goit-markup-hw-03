@@ -398,4 +398,7 @@ padding-top: 1.5em;
     .section-four-text {
         text-align: center;
     }
+.section-three {
+        padding-top: 0;
+    }
     
